@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    img{
+        width: 30px;
+        height: 30px;
+    }
+    body {
+        background: url('https://cdn.pixabay.com/photo/2016/09/05/15/07/concrete-1646788_960_720.jpg');
+        background-size: cover;
+    }
+
+    #myCanvas1 {
+        background: url('https://cdn.pixabay.com/photo/2015/12/19/20/32/paper-1100254_960_720.jpg');
+background-size: cover;
+    }
+
+    button {
+        background-color:rgb(107, 125, 184);
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+</style>
+<meta charset="UTF-8">
+<title>Title</title>
+
+<body>
+    <h2>có thể bấm <img src="phim1.png" alt="">,<img src="phim2.png" alt=""> , và di chuột <img src="chuot.png" alt=""> </h2>
+    
+    <center><button onclick="setInterval(draw,10)">Chơi</button></center>
+    <br>
+    <center><canvas id="myCanvas1" width="800px" height="550px"></canvas></center>
+    <script src="gem.js"></script>
+</body>
+
+</html>
